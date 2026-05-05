@@ -800,7 +800,7 @@ import{initializeApp}from"https://www.gstatic.com/firebasejs/10.8.0/firebase-app
 import{getAuth,signInWithEmailAndPassword,createUserWithEmailAndPassword,onAuthStateChanged,signOut}from"https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
 import{getFirestore,collection,doc,setDoc,getDoc,getDocs,addDoc,updateDoc,deleteDoc,serverTimestamp,onSnapshot,query,orderBy,where}from"https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js";
 
-const FC={apiKey:"AIzaSyBplg65MNJXO4Kre3tAnlGBQvMjxKlV-f4",authDomain:"tucasa-cbe-choir-2d995.firebaseapp.com",projectId:"tucasa-cbe-choir-2d995",storageBucket:"tucasa-cbe-choir-2d995.firebasestorage.app",messagingSenderId:"578372140572",appId:"1:578372140572:web:0db394e42d18edf872e9d9"};
+const firebaseConfig = { apiKey: "AIzaSyBwaxA4uO0Au3UXnffJfbwVIKZJ_sCkn8k", authDomain: "ambassadors-balili-dfcd3.firebaseapp.com", projectId: "ambassadors-balili-dfcd3",storageBucket: "ambassadors-balili-dfcd3.firebasestorage.app", messagingSenderId: "210967376078",  appId: "1:210967376078:web:2f99b47af92fa1c0aa609f"};
 const CL="dsvfjzbpx",CP="tucasa_uploads";
 const fb=initializeApp(FC),auth=getAuth(fb),db=getFirestore(fb);
 let CU=null,CUD=null,isAdmin=false,chatU=null,calI=null,mChI=null,adChI=null,allMems=[],allTrans=[],curPg='dash',curAdminTab='overview',curPosterId=null;
